@@ -1,9 +1,9 @@
 import { CountUp } from './node_modules/countup.js/dist/countUp.js';
 
-window.onload = function() {
+
     var countUp = new CountUp('num', 5000, {suffix: ' user'});
     countUp.start();
-  }
+
 
 AOS.init({
     delay: 200, // values from 0 to 3000, with step 50ms
